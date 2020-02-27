@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
+.App {
+  color: rgb(78, 78, 78);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  text-justify: center;
+  font-family: Roboto;
+  background-color: rgb(216, 216, 216);
+}
+.Inner-App{
+  display: flex;
+  flex-direction: column;
+  padding: 0px 50px;
+  align-items: center;
+  justify-content: center;
+  margin: 15px;
+  box-shadow: 0.1px 0.1px 5px rgb(126, 126, 126);
+  background-color: rgb(255, 255, 255);
+}
+
+@media(max-width: 361px){
+  .Inner-App{
+    padding: 20px;
+    margin: 10px;
+  }
+}
+button {
+  padding: 20px 40px;
+  margin: 20px;
+  border: 0;
+  background-color: #8EDDFD;
+  color: white;
+  transition: 0.2s;
+  border-radius: 3px;
+  font-size: 15px;
+}
+button:hover{
+  background-color: rgb(79, 188, 231);
+  cursor: pointer;
+}
+.result{
+  color: #8EDDFD;
+  text-decoration: none;
+  list-style: none;
+  font-size: 25px;
+}
+.result li{
+  display: inline;
+  margin-right: 20px;
+}
