@@ -50,7 +50,7 @@ function App() {
       <div className="Inner-App">
         <header>
           <h1>Calculadora do Sono</h1>
-          <p>Para um bom sono, procure acordar às:</p>
+          <p>Para um bom sono, procure dormir às:</p>
           <ul className="result">{
             result.map(result => (<li key={result}>{result}</li>))
           }</ul>
